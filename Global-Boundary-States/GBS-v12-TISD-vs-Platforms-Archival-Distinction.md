@@ -1,3 +1,24 @@
+# Provenance Header — Global Boundary Statement v12
+# NDH-Platforms / Global-Boundary-States
+# Declared under Omega-IV Holonomy Governance
+
+Provenance Chain:
+- Origin Case Study: TISD-NDH-GBS-v12-Archival-Distinction-Foundation-Case-Study-v1.0
+- Supporting Diagram: Stabilizing Triad (docs/tisd/holonomy/diagrams/)
+- Supporting Map: Cross-Repo Boundary Map (docs/tisd/holonomy/maps/)
+- Related Expressive Lineage: Myth Engine Archive Note, UMA-Witness Literature Placement Note
+- Related Governance Protocol: [TISD Archival Protocol v4.0](ca://s?q=Explain_TISD_Archival_Protocol_v4)
+- Related Runtime Constraints: [NDH-CORE Non-Dual Operators](ca://s?q=Explain_NDH_CORE)
+- Related Holonomy Context: [Omega-IV Governance](ca://s?q=Explain_Holonomy_Governance_Omega_IV)
+
+Provenance Summary:
+GBS v12 is declared as a global invariant defining the boundary between TISD
+archival evaluation and NDH-Platforms expressive lineage storage. This header
+anchors GBS v12 within NDH’s cosmology, ensuring visibility across CORE,
+Platforms, and TISD, and preserving the lineage of expressive, structural, and
+governance-tier artifacts.
+
+
 # 🌌 **Global Boundary Statement v12**  
 ### **TISD Archival Protocol (Evaluation) ↔ NDH‑PLATFORMS Expressive Lineage Archival (Storage)**  
 ### *Declared under Omega‑IV Holonomy Governance*
