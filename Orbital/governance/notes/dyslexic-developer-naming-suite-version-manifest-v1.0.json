@@ -1,0 +1,123 @@
+# 🗄️ **NDH Naming Case Study Suite — Version Manifest (v1.0)**  
+### File Path  
+```
+NDH-Platforms/Orbital/governance/notes/dyslexic-developer-naming-suite-version-manifest-v1.0.json
+```
+
+---
+
+## **1. Purpose**
+
+The Version Manifest provides a **machine‑readable, provenance‑safe registry** of:
+
+- all suite artifacts  
+- their versions  
+- their canonical file paths  
+- their governance layer  
+- their cross‑repo linkage  
+- their structural role  
+
+Orbital maintains this manifest as part of its cross‑repo authority.
+
+---
+
+## **2. Manifest (v1.0)**  
+Below is the complete JSON manifest, stable and ready to commit:
+
+```json
+{
+  "suite": "NDH Naming Case Study Suite",
+  "version": "1.0",
+  "generated": "2026-07-25T15:29:00+01:00",
+  "governance_layer": "Orbital",
+  "artifacts": 
+    {
+      "name": "Meta-Document",
+      "id": "meta-document-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/dyslexic-developer-naming-meta-document-v1.0.md",
+      "link": "[Meta-Document"
+    },
+    {
+      "name": "Refinement Blueprint",
+      "id": "refinement-blueprint-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/dyslexic-developer-naming-refinement-blueprint-v1.0.md",
+      "link": "Refinement Blueprint"
+    },
+    {
+      "name": "Suite Index",
+      "id": "suite-index-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/dyslexic-developer-naming-suite-index-v1.0.md",
+      "link": "Suite Index"
+    },
+    {
+      "name": "Commit Plan",
+      "id": "commit-plan-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/dyslexic-developer-naming-suite-commit-plan-v1.0.md",
+      "link": "Commit Plan"
+    },
+    {
+      "name": "Orbital Edition",
+      "id": "orbital-edition-v2.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/dyslexic-developer-naming-case-study-v2.0.md",
+      "link": "Orbital Edition"
+    },
+    {
+      "name": "NDH-CORE Edition",
+      "id": "core-edition-v2.0",
+      "layer": "NDH-CORE",
+      "path": "NDH-CORE/docs/architecture/dyslexic-developer-naming-case-study-v2.0.md",
+      "link": "NDH-CORE Edition"
+    },
+    {
+      "name": "NDH-TIDS Edition",
+      "id": "tids-edition-v2.0",
+      "layer": "NDH-TIDS",
+      "path": "NDH-TIDS/docs/topology/dyslexic-developer-naming-case-study-v2.0.md",
+      "link": "NDH-TIDS Edition"
+    },
+    {
+      "name": "Emergent Edition",
+      "id": "emergent-edition-v2.0",
+      "layer": "Emergent",
+      "path": "NDH-Platforms/Emergent/Case-Studies/dyslexic-developer-naming-case-study-v2.0.md",
+      "link": "Emergent Edition"
+    },
+    {
+      "name": "Governance Banner",
+      "id": "orbital-banner-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/orbital-governance-banner-v1.0.md",
+      "link": "Orbital Governance Banner"
+    },
+    {
+      "name": "Governance Footer",
+      "id": "orbital-footer-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/orbital-governance-footer-v1.0.md",
+      "link": "Orbital Governance Footer"
+    },
+    {
+      "name": "Suite README",
+      "id": "suite-readme-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/README.md",
+      "link": "Suite README"
+    },
+    {
+      "name": "Suite Changelog",
+      "id": "suite-changelog-v1.0",
+      "layer": "Orbital",
+      "path": "NDH-Platforms/Orbital/governance/notes/dyslexic-developer-naming-suite-changelog.md",
+      "link": "Suite Changelog"
+    }
+  ]
+}
+```
+
+---
+
