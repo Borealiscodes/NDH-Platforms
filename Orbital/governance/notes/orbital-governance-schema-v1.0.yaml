@@ -1,0 +1,139 @@
+# 🛰️ **Orbital Governance Schema (v1.0)**  
+### File Path  
+```
+NDH-Platforms/Orbital/governance/notes/orbital-governance-schema-v1.0.yaml
+```
+
+---
+
+## **1. Purpose**
+
+The Orbital Governance Schema defines:
+
+- required document fields  
+- required section ordering  
+- required provenance markers  
+- required naming‑family references  
+- required banner/footer inclusion  
+- required cross‑repo linkage  
+- dyslexia‑aware structural constraints  
+
+This schema ensures all future Orbital governance documents remain structurally stable and naming‑invariant compliant.
+
+---
+
+## **2. Schema (YAML, v1.0)**  
+Machine‑readable, stable, and ready to commit.
+
+```yaml
+orbital_governance_document:
+  version: "1.0"
+  required:
+    - governance_banner
+    - purpose
+    - context
+    - architectural_impact
+    - requirements
+    - recommendations
+    - cross_repo_linkage
+    - provenance
+    - governance_footer
+
+  governance_banner:
+    type: reference
+    value: orbital-governance-banner-v1.0.md
+
+  governance_footer:
+    type: reference
+    value: orbital-governance-footer-v1.0.md
+
+  purpose:
+    type: text
+    min_length: 40
+    description: >
+      Defines the governance intent and cross-repo scope of the document.
+
+  context:
+    type: text
+    min_length: 60
+    description: >
+      Describes the architectural layer, naming families, and governance domain.
+
+  architectural_impact:
+    type: list
+    items: text
+    description: >
+      Lists the architectural consequences of the governance rules.
+
+  requirements:
+    type: list
+    items: text
+    description: >
+      Defines mandatory governance rules, naming invariants, and rhythm constraints.
+
+  recommendations:
+    type: list
+    items: text
+    description: >
+      Provides optional but encouraged governance practices.
+
+  cross_repo_linkage:
+    type: list
+    items:
+      - reference: meta_document
+      - reference: refinement_blueprint
+      - reference: suite_index
+
+  provenance:
+    type: object
+    fields:
+      layer: { type: string, enum: ["Orbital"] }
+      anchors: { type: list, items: text }
+      lineage_rules: { type: list, items: text }
+
+  naming_invariants:
+    type: reference
+    value: dyslexic-developer-naming-invariant-ledger-v1.0.md
+
+  accessibility_rules:
+    type: list
+    items: text
+    description: >
+      Dyslexia-aware structural constraints including rhythm stability,
+      shape-consistency, and avoidance of stress-triggering naming patterns.
+
+  placement:
+    type: string
+    value: "NDH-Platforms/Orbital/governance/notes/"
+```
+
+---
+
+## **3. Schema Guarantees**
+
+This schema enforces:
+
+- **structural consistency** across all Orbital governance documents  
+- **naming‑family compliance** via the invariant ledger  
+- **provenance clarity** via mandatory anchors  
+- **cross‑repo linkage** via required references  
+- **dyslexia‑aware accessibility** via rhythm and shape constraints  
+- **architectural stability** via required section ordering  
+
+It is the governance equivalent of a compiler.
+
+---
+
+## **4. Cross‑Repo Linkage**
+
+The schema requires references to:
+
+- **Meta‑Document**  
+- **Refinement Blueprint**  
+- **Suite Index**  
+- **Naming Invariant Ledger**  
+
+This ensures future governance documents remain aligned with the suite.
+
+---
+
