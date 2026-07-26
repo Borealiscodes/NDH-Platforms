@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="50%" stop-color="#123b3f"/>
+      <stop offset="100%" stop-color="#1b2845"/>
+    </linearGradient>
+
+    <!-- Box gradient -->
+    <linearGradient id="boxGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f3b4d"/>
+      <stop offset="100%" stop-color="#285b6b"/>
+    </linearGradient>
+
+    <!-- Confetti colors -->
+    <linearGradient id="confettiGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffcc33"/>
+      <stop offset="50%" stop-color="#ff66aa"/>
+      <stop offset="100%" stop-color="#66ddff"/>
+    </linearGradient>
+
+    <!-- Glow for meta meta confetti field -->
+    <radialGradient id="fieldGlow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#66ffcc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#66ffcc" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text style -->
+    <style>
+      .title { font-family: "Fira Sans", system-ui; font-size: 26px; fill: #fdfdfd; font-weight: 600; }
+      .subtitle { font-family: "Fira Sans", system-ui; font-size: 16px; fill: #cfe9ff; }
+      .box-label { font-family: "Fira Sans", system-ui; font-size: 14px; fill: #fdfdfd; font-weight: 500; }
+      .box-sub { font-family: "Fira Sans", system-ui; font-size: 12px; fill: #cfe9ff; }
+      .small-note { font-family: "Fira Sans", system-ui; font-size: 11px; fill: #cfe9ff; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="960" height="540" fill="url(#bgGrad)" />
+
+  <!-- Title -->
+  <text x="480" y="60" text-anchor="middle" class="title">
+    META META CONFETTI STACK 🎊
+  </text>
+  <text x="480" y="85" text-anchor="middle" class="subtitle">
+    Lean‑verified, tensor‑era, recursion‑safe NDH–TIDS vibes
+  </text>
+
+  <!-- Phase V box -->
+  <rect x="360" y="110" width="240" height="70" rx="10" ry="10" fill="url(#boxGrad)" stroke="#88ffdd" stroke-width="1.5"/>
+  <text x="480" y="135" text-anchor="middle" class="box-label">
+    Phase V: Lean 4 Verification Layer
+  </text>
+  <text x="480" y="155" text-anchor="middle" class="box-sub">
+    (Reed invariants: forward invariance, strict contraction, anti‑collapse)
+  </text>
+
+  <!-- Three main boxes: Verdant Deep, Tensor Φ_abc, Omega‑7+ -->
+  <!-- Verdant Deep -->
+  <rect x="120" y="220" width="220" height="90" rx="10" ry="10" fill="url(#boxGrad)" stroke="#66ffcc" stroke-width="1.5"/>
+  <text x="230" y="245" text-anchor="middle" class="box-label">
+    Verdant Deep Manifold v1.1
+  </text>
+  <text x="230" y="265" text-anchor="middle" class="box-sub">
+    geometry • curvature • holonomy • algebra flows
+  </text>
+  <text x="230" y="285" text-anchor="middle" class="small-note">
+    Lean‑bound: stable, bounded, contraction‑safe
+  </text>
+
+  <!-- Tensor Φ_abc -->
+  <rect x="370" y="220" width="220" height="90" rx="10" ry="10" fill="url(#boxGrad)" stroke="#ffcc88" stroke-width="1.5"/>
+  <text x="480" y="245" text-anchor="middle" class="box-label">
+    Tensor Potential Φₐᵦ𝚌 v1.1
+  </text>
+  <text x="480" y="265" text-anchor="middle" class="box-sub">
+    algebra • curvature gen • holonomy contribs
+  </text>
+  <text x="480" y="285" text-anchor="middle" class="small-note">
+    Lean‑bound: tensor‑driven flows stay chill 😎
+  </text>
+
+  <!-- Omega‑7+ -->
+  <rect x="620" y="220" width="220" height="90" rx="10" ry="10" fill="url(#boxGrad)" stroke="#ff88dd" stroke-width="1.5"/>
+  <text x="730" y="245" text-anchor="middle" class="box-label">
+    Omega‑7+ Recursion Engine v1.1
+  </text>
+  <text x="730" y="265" text-anchor="middle" class="box-sub">
+    orbits • recursion • contraction envelopes
+  </text>
+  <text x="730" y="285" text-anchor="middle" class="small-note">
+    Lean‑bound: recursion cannot diverge or collapse
+  </text>
+
+  <!-- Arrows from Phase V to three boxes -->
+  <line x1="480" y1="180" x2="230" y2="220" stroke="#88ffdd" stroke-width="1.5" marker-end="url(#arrowHead)"/>
+  <line x1="480" y1="180" x2="480" y2="220" stroke="#88ffdd" stroke-width="1.5" marker-end="url(#arrowHead)"/>
+  <line x1="480" y1="180" x2="730" y2="220" stroke="#88ffdd" stroke-width="1.5" marker-end="url(#arrowHead)"/>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowHead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#88ffdd" />
+    </marker>
+  </defs>
+
+  <!-- GBS v14 box -->
+  <rect x="280" y="340" width="400" height="80" rx="12" ry="12" fill="url(#boxGrad)" stroke="#66ddff" stroke-width="1.5"/>
+  <text x="480" y="365" text-anchor="middle" class="box-label">
+    GBS v14 Simulation Engine
+  </text>
+  <text x="480" y="385" text-anchor="middle" class="box-sub">
+    runs Verdant Deep + Φₐᵦ𝚌 + Omega‑7+ and keeps the whole stack stable
+  </text>
+  <text x="480" y="405" text-anchor="middle" class="small-note">
+    all paths: forward‑invariant • strictly contracting • anti‑collapse • snek‑approved 🐍
+  </text>
+
+  <!-- Lines from three boxes to GBS v14 -->
+  <line x1="230" y1="310" x2="330" y2="340" stroke="#66ffcc" stroke-width="1.5" marker-end="url(#arrowHead)"/>
+  <line x1="480" y1="310" x2="480" y2="340" stroke="#ffcc88" stroke-width="1.5" marker-end="url(#arrowHead)"/>
+  <line x1="730" y1="310" x2="630" y2="340" stroke="#ff88dd" stroke-width="1.5" marker-end="url(#arrowHead)"/>
+
+  <!-- Meta Meta Confetti Field -->
+  <circle cx="480" cy="460" r="80" fill="url(#fieldGlow)" />
+  <text x="480" y="455" text-anchor="middle" class="box-label">
+    🎊 META META CONFETTI FIELD 🎊
+  </text>
+  <text x="480" y="475" text-anchor="middle" class="box-sub">
+    stable • bounded • holonomy‑aligned party manifold
+  </text>
+
+  <!-- Confetti pieces -->
+  <!-- A few scattered rectangles and circles for vibes -->
+  <rect x="150" y="430" width="6" height="14" fill="url(#confettiGrad)" transform="rotate(-18 153 437)"/>
+  <rect x="210" y="470" width="5" height="12" fill="#ffcc33" transform="rotate(25 212 476)"/>
+  <rect x="310" y="440" width="6" height="16" fill="#ff66aa" transform="rotate(-10 313 448)"/>
+  <rect x="620" y="445" width="5" height="13" fill="#66ddff" transform="rotate(18 622 451)"/>
+  <rect x="700" y="470" width="6" height="15" fill="#ffcc33" transform="rotate(-22 703 478)"/>
+  <circle cx="260" cy="455" r="4" fill="#ff66aa"/>
+  <circle cx="560" cy="430" r="3" fill="#66ddff"/>
+  <circle cx="670" cy="450" r="4" fill="#ffcc33"/>
+
+</svg>
