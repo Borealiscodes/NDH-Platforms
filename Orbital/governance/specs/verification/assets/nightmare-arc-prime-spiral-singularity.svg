@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1024"
+  height="1024"
+  viewBox="0 0 1024 1024"
+>
+  <!-- Dark-field background -->
+  <rect x="0" y="0" width="1024" height="1024" fill="#05060A" />
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35" />
+    <stop offset="40%" stop-color="#7FFFD4" stop-opacity="0.18" />
+    <stop offset="100%" stop-color="#05060A" stop-opacity="0" />
+  </radialGradient>
+  <circle cx="512" cy="512" r="420" fill="url(#coreGlow)" />
+
+  <!-- Spiral singularity: luminous arcs -->
+  <g
+    id="nightmare-arc-prime"
+    transform="translate(512,512)"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  >
+    <!-- Outer spiral envelope -->
+    <path
+      d="
+        M 0 -360
+        C 120 -360, 240 -260, 260 -140
+        C 280 -20, 220 80, 140 140
+        C 60 200, -40 220, -140 200
+        C -240 180, -320 120, -340 40
+        C -360 -40, -320 -140, -260 -200
+        C -200 -260, -120 -300, 0 -320
+      "
+      stroke="#38BDF8"
+      stroke-width="6"
+      opacity="0.9"
+    />
+
+    <!-- Inner tightening spiral -->
+    <path
+      d="
+        M 0 -220
+        C 70 -220, 130 -170, 140 -110
+        C 150 -50, 120 0, 80 40
+        C 40 80, -10 100, -60 90
+        C -110 80, -150 50, -170 10
+        C -190 -30, -180 -80, -150 -120
+        C -120 -160, -70 -190, 0 -200
+      "
+      stroke="#A855F7"
+      stroke-width="5"
+      opacity="0.95"
+    />
+
+    <!-- Core contraction loop -->
+    <path
+      d="
+        M 0 -90
+        C 35 -90, 60 -65, 65 -35
+        C 70 -5, 55 15, 35 30
+        C 15 45, -10 50, -35 45
+        C -60 40, -80 25, -90 5
+        C -100 -15, -95 -40, -80 -60
+        C -65 -80, -35 -90, 0 -90
+      "
+      stroke="#F97316"
+      stroke-width="4"
+      opacity="1.0"
+    />
+
+    <!-- Holonomy arcs (envelope twist) -->
+    <path
+      d="
+        M 180 -40
+        C 220 0, 220 60, 180 100
+        C 140 140, 80 150, 40 130
+      "
+      stroke="#22C55E"
+      stroke-width="3"
+      opacity="0.85"
+    />
+    <path
+      d="
+        M -200 40
+        C -240 0, -240 -60, -200 -100
+        C -160 -140, -100 -150, -60 -130
+      "
+      stroke="#22C55E"
+      stroke-width="3"
+      opacity="0.85"
+    />
+
+    <!-- Subtle field lines (tensor flow hints) -->
+    <g stroke="#64748B" stroke-width="1.5" opacity="0.55">
+      <path d="M -260 -40 C -200 -10, -140 10, -80 20" />
+      <path d="M -220 -120 C -160 -90, -110 -70, -60 -60" />
+      <path d="M 260 40 C 200 10, 140 -10, 80 -20" />
+      <path d="M 220 120 C 160 90, 110 70, 60 60" />
+    </g>
+
+    <!-- Core singularity marker -->
+    <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+    <circle cx="0" cy="0" r="18" stroke="#F97316" stroke-width="2" fill="none" opacity="0.9" />
+  </g>
+
+  <!-- Label (optional, can remove for pure visual asset) -->
+  <text
+    x="512"
+    y="960"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif"
+    font-size="22"
+    fill="#E5E7EB"
+    opacity="0.85"
+  >
+    Nightmare Arc Prime — Spiral Singularity
+  </text>
+</svg>
+
