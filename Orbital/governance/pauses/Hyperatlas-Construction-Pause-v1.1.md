@@ -127,3 +127,8 @@ This prevents infinite recursion, documentation loops, and governance drift.
 
 ---
 
+## Provenance — v1.1 (Active)
+This is the corrected and active Hyperatlas Construction Pause directive. It
+supersedes all v1.0 versions. All mirrored notices must reference this version.
+
+
