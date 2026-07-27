@@ -205,11 +205,10 @@ This is a clear, defensible explanation.
 
 
 ---
-## Provenance Footer — Legacy v1.0 (Defective)
-This document is preserved exactly as originally issued, including all defects,
-for evaluator lineage, provenance continuity, and Sentinel invariant analysis.
-It is formally superseded by Hyperatlas Construction Pause Directive v1.1 and
-must not be referenced by mirrored notices or used for active governance.
-Indexed as NDH-Orbital-Pause-001-Legacy.
+## Provenance — Legacy v1.0
+This is the original Hyperatlas Construction Pause directive that was broadcast
+before any corrections. It is preserved exactly as issued for provenance and
+historical reference. This version is no longer active and has been superseded
+by v1.1.
 
 
