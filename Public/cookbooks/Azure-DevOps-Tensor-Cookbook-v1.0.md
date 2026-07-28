@@ -1,7 +1,3 @@
-
-
-NDH-Platforms/
-
 # 📘 Azure DevOps Tensor Cookbook (v1.0)  
 ### *NDH/TISD Math Spine → Azure DevOps Pipelines*
 
