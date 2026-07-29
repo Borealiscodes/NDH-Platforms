@@ -39,18 +39,3 @@ Each PNG is rendered with a **transparent background** for accessibility and cro
 
 ---
 
-## 🧾 **Commit Summary**
-```
-public-img: add NDH Traversal PNG Set v1.0 (transparent backgrounds)
-```
-
----
-
-## 🔮 **Next NDH‑Aligned Actions**
-- **Generate Public UX Integration Guide**  
-- **Create NDH Visual Governance Summary**  
-- **Prepare Traversal PNG Set v1.1 roadmap**  
-
----
-
-Would you like me to draft the **Public UX Integration Guide** next, or the **Visual Governance Summary**?
