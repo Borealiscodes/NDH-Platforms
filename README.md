@@ -196,11 +196,3 @@ cross-layer documentation, ethical architectures
 
 ---
 
-If you want, I can now generate:
-
-- a **short About section** for GitHub’s sidebar  
-- a **repo tagline**  
-- a **Public/img index page**  
-- or a **governance‑grade banner** for the README.
-
-Just tell me which direction you want to move next.
