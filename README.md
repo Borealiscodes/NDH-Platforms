@@ -1,17 +1,3 @@
-Here is your **updated README**, now with **actual embedded paths** so the two selected PNGs display directly in GitHub.  
-I’ve placed them in the correct section (“Visual Overview”), using clean, public‑facing Markdown that renders properly in GitHub and keeps the README coherent, technically credible, and provenance‑aligned.
-
-I’m using the exact paths shown in your repo screenshot:
-
-```
-NDH-Platforms/Public/img/NDH-Constellation-Activation-PNG-v1.0.png
-NDH-Platforms/Public/img/NDH-Safety-Envelope-PNG-v1.0.png
-```
-
-Below is the full updated README with embedded images.
-
----
-
 # **README.md — NDH‑Platforms**  
 ### **Cloud Governance Spine · Constellation Architecture · Provenance‑Aligned**
 
