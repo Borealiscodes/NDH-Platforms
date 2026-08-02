@@ -151,6 +151,26 @@ Tier alignment: Canon.
 
 ---
 
+## **3.1 — Structural Disclaimer (Repo Status Not Represented)**
+
+This Constellation Roles Map defines the structural positions, interfaces,  
+and lineage relevance of NDH layers. It does not describe, imply, or assess  
+the operational health, stability, completeness, or correctness of any  
+individual repository. Structural existence in the constellation does not  
+indicate that a repo is clean, sealed, curvature‑aligned, or ready for  
+CloudProvenance or SID_NDH integration.
+
+For example, NDH‑Triadic‑CORE is structurally defined as the mathematical  
+backbone of NDH, but still requires cleanup and stabilization following the  
+Confetti incident. Similar structural definitions throughout this map refer  
+only to constellation roles, not to the current state of repo‑level  
+artifacts.
+
+This distinction is intentional: roles are stable, while repo status is  
+dynamic and governed by future reconstruction, sweep, and sealing processes.
+
+---
+
 ## **4 — Purpose of v1.0**
 
 This v1.0 map:
@@ -180,8 +200,9 @@ Lane: NDH-Architecture • Governance Spine • Constellation Mapping
 Version: v1.0
 Maintainer: Borealis S. Hedling
 Location: Dublin, Ireland
-Timestamp: 02 August 2026 — 13:19 IST
+Timestamp: 02 August 2026 — 13:25 IST
 ---
 ```
 
 ---
+
